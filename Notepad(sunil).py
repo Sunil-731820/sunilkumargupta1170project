@@ -73,10 +73,7 @@ def screenshot():
     screen_shot1.save(save_file)
 #paste function
 def paste():
-    text_area.insert(INSERT,text_area.clipboard_get())
-#function for save only
-def save():
-    file = asksaveasfilename()
+    text_area.insert(INSERT,text_area.clipboard_get()
 
 #save function
 def saveFile():
